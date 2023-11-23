@@ -96,10 +96,12 @@ const Home = () => {
 
   return (
     <div>
+        
+
       <div className={style.homeContainer}>
         <div className={style.leftBox}>
           <Filters />
-          <OrderByPrice />
+          
         </div>
         <div className={style.cards}>
           <Cards allFields ={currentFields} />

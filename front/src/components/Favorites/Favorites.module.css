@@ -1,11 +1,15 @@
 .favoritos{
     display: grid; 
-    gap: 3px;
     grid-template-columns: repeat(5, 1fr); 
-    grid-template-rows: auto;
-    margin: 0;
-    margin-left: -30px;
-    margin-right: 30px;
+    
+  }
+  .fav{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 2px solid #0D3A5D;
+    padding: 5px;
+    transition: background-color 0.3s; /* Agrega una transición para el cambio de color de fondo */
   }
   
    

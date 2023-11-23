@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 104vh;
+    height: 1000px;
     margin-top: 30px;
     background-size: auto; 
     background-repeat: repeat; 
@@ -38,12 +38,12 @@ margin-top: auto;
     background: rgb(220, 220, 220);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 1000px;
     margin-top: 0;
   }
   .container {
     text-align: center;
-    height: 50vh;
+    height: 1000px;
     background-color: #fff;
     border-radius: 35px;
     position: relative;

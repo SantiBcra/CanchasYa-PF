@@ -1,15 +1,15 @@
 .selects {
-  display: flex;
+  display: contents;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   border: #0D3A5D;
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 .select {
   display: flex;
   border: #0D3A5D;
-  margin-left: 10px;
+  margin-left: auto;
   align-items: center;
   background-color: #81BA27;
   color: #fff;
@@ -19,8 +19,8 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin-left: 0;
-  margin-right: 20px; /* Ajusta este valor según tus necesidades */
+  margin-left: 40px;
+  margin-right: 10px; /* Ajusta este valor según tus necesidades */
 }
 
 .select:hover {

@@ -53,7 +53,7 @@ toCard.push(push)
       
       {toCard.map((fav) => {
        const field =fav[0]
-        return <Card key={field.id} field={field} esFav = {true} />;
+        return <Card className={style.fav} key={field.id} field={field} esFav = {true} />;
       })}
     </div>
   );

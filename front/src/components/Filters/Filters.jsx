@@ -111,7 +111,7 @@ function Filters() {
           </option>
         ))}
       </select>
-      <div className={style.priceFilter}>
+      
         <input
           type="number"
           placeholder="Precio mínimo"
@@ -128,7 +128,7 @@ function Filters() {
           onChange={handlePriceRangeChange}
           className={style.priceInput}
         />
-      </div>
+      
       <button onClick={handleResetFilters} className={`${style.btn} ${style.resetButton}`}>Restablecer filtros</button>
     </div>
   );
